@@ -1,0 +1,12 @@
+apiVersion: v2
+name: it-tools
+description: Helm chart for deploying IT Tools on Kubernetes.
+type: application
+version: 0.1.0
+appVersion: "latest"
+home: https://github.com/CorentinTh/it-tools
+sources:
+  - https://github.com/CorentinTh/it-tools
+  - https://github.com/beershop-ge/satu-charts
+maintainers:
+  - name: chago1991
