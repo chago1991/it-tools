@@ -7,6 +7,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
+    # Replace with your public DNS name.
     - host: it-tools.local
       http:
         paths:
